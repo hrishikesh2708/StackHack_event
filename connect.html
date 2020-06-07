@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
+
+  <title>Event Reg.</title>
+</head>
+
+<body>
+  <section class="header-class">
+    <header>
+        <i class="fab fa-elementor header__logo"></i>
+
+    </header>
+  </section>
+
+  <main>
+
+    <section class="section-card">
+      <div class="row row-form">
+        <div class="col-1-of-2 image-section col-2">
+          <div class="image-details" id="card-img">
+            <div class="details_section">
+              <div class="">
+                <h3 id="eventName"></h3>
+              </div>
+            </div>
+
+            <div class="details_section">
+              <div class="">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+              </div>
+
+              <div class="">
+                <p id="about">
+                  Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+                </p>
+              </div>
+            </div>
+
+            <div class="details_section">
+              <div class="">
+                <span class="location-icon fa fa-map-marker"></span>
+              </div>
+
+              <div class="">
+                <p id="add">
+                  Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+                </p>
+              </div>
+            </div>
+
+            <div class="details_section">
+              <div class="">
+                <span class=""><i class="fa fa-phone-alt"></i><span class="txt3">
+               +1 800 1236879
+                </span> </span>
+              </div>
+            </div>
+
+            <div class="details_section">
+              <div class="">
+                <span class=""><i class="fa fa-envelope"></i></span>
+              </div>
+
+              <div class="">
+                <p class="txt3">
+                  contact@example.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-1-of-2 col-2">
+
+          <!-- Form Heading -->
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Event Registration</span>
+            <span class="heading-primary--sub">Confirm all the details & click on Finish</span>
+
+          </h1>
+          <!-- Progressbar -->
+
+          <div class="progressbar">
+            <li id="personal" class="progressbar--item"><i class="fas fa-user active"></i></li>
+            <li id="payment" class="progressbar--item"><i class="fas fa-camera active"></i></li>
+            <li id="confirm" class="progressbar--item"><i class="fas fa-check-circle"></i></li>
+          </div>
+          <form>
+
+            <div class="form-card ">
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h2 class="fs-title">Preview:</h2>
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h2 class="steps">Step 2 - 3</h2>
+                </div>
+              </div>
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">Profile Photo:</h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements" style="height:150px ;   width:100px;">
+                    <div class="image-details" id="card-images" >
+                    </div>
+                </div>
+              </div>
+
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">Name:</h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h3 type="text" name="fname" id="fname"></h3><h3 name="lname" id="lname"></h3>
+                </div>
+              </div>
+
+
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">Email: </h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h3 name="email" id="email"></h3>
+                </div>
+              </div>
+
+
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">Contact:</h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h3 name="phno" id="phno"></h3>
+                </div>
+              </div>
+
+
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">Category:</h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h3 name="category" id="category"></h3>
+                </div>
+              </div>
+
+
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">No Of Tickets: </h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h3 name="no_tik" id="no_tik"></h3>
+                </div>
+              </div>
+
+
+              <div class="row row-form">
+                <div class="col-1-of-2 form-elements">
+                  <h3 class="title">Registration ID:</h3>
+
+                </div>
+                <div class="col-1-of-2 form-elements">
+                  <h3 name="uid" id="uid"></h3>
+                </div>
+              </div>
+
+
+
+
+
+              <div class="row row-form">
+                <input type="button" name="next" class="btn-form" id="finish" value="Finish" onclick="window.location.href='/finish'" />
+                <button type="button" name="button" class="btn-form" onclick="window.location.href='/reg.html'">Previous</button>
+              </div>
+
+
+            </div>
+          </form>
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="footer-class">
+    <footer>
+      <a href="#"><i class="fab fa-twitter foot-icon"></i></a>
+      <a href="#"><i class="fab fa-facebook foot-icon"></i></a>
+      <a href="#"><i class="fab fa-instagram foot-icon"></i></a>
+      <a href="#"><i class="fas fa-envelope foot-icon"></i></a>
+      <h1>Event Registration</h1>
+      <p class="cpt">&copy; Copyright 2020 Shankha & Hrishikesh</p>
+    </footer>
+  </section>
+
+
+
+
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/reg.js" charset="utf-8"></script>
+  <script src="js/test.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
